@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  background-color: #0c0c10;
+  color: #f2f1ed;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+* {
+  scrollbar-color: #25252f #0c0c10;
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+
+.tally-dot {
+  animation: pulse-dot 2.2s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tally-dot {
+    animation: none;
+  }
+}
+
+input:focus-visible,
+button:focus-visible,
+a:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #ff5a2b;
+  outline-offset: 2px;
+}
