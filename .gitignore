@@ -1,7 +1,5 @@
 /.DS_Store
 /.env.example
-/README.md
 /node_modules
 
 
-/vite.config.js
