@@ -1,9 +1,7 @@
 /.DS_Store
 /.env.example
 /README.md
-/index.html
 /node_modules
-/package-lock.json
-/postcss.config.js
-/tailwind.config.js
+
+
 /vite.config.js
